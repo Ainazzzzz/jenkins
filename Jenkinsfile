@@ -13,9 +13,6 @@ pipeline {
             steps {
                 echo 'Running tests'
                
-                script {
-                    
-                }
             }
         }
 
@@ -23,21 +20,8 @@ pipeline {
             steps {
                 echo 'Building the project'
               
-                script {
-                  
-                }
             }
         }
     }
 
-    post {
-        success {
-            echo 'Pipeline succeeded!'
-          
-        }
-        failure {
-            echo 'Pipeline failed!'
-           
-        }
-    }
 }
