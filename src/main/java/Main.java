@@ -5,14 +5,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-    ArrayList<Animal> animals = new ArrayList<>(List.of(
-            new Animal(1, "Tiger"),
-            new Animal(2, "Lion"),
-            new Animal(3, "Dolphin")
-    ));
-        System.out.println(
-    animals
-        );
+  
 
     LinkedList<Person> myFamily = new LinkedList<>(List.of(
             new Person(1, "Bektur"),
